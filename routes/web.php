@@ -19,4 +19,8 @@ Route:: get('abuet', function () {
    return 'About Page';
 });
 
+get('reporting', function () {
+   return 'Reporting feateru';
+})
+
 // Whatever logic to add report with more changes
