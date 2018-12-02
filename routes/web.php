@@ -14,3 +14,7 @@
 Route::get('/', function () {
    app(); 
 });
+
+Route:: get('about', function () {
+   
+});
