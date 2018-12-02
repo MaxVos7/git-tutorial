@@ -15,8 +15,8 @@ Route::get('/', function () {
    app(); 
 });
 
-Route:: get('about', function () {
-
+Route:: get('abuet', function () {
+   return 'About Page';
 });
 
 // Whatever logic to add report with more changes

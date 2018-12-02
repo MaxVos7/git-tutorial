@@ -28,5 +28,11 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
-    
+    public function Name(App\Mail $mail)
+    {
+    return 34;
+    }
+
+
+
 }
