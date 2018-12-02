@@ -22,3 +22,7 @@ Route:: get('about', function () {
 });
 
 Route::resource('reports', ReportsController);
+
+Route:: get('Newpage', function (){
+   return 'newpage';
+});
