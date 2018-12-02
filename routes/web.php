@@ -21,6 +21,4 @@ Route:: get('about', function () {
 
 get('reporting', function () {
    return 'Reporting feateru';
-})
-
-// Whatever logic to add report with more changes
+});
