@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\ReportsController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,6 +21,4 @@ Route:: get('about', function () {
    return 'About Page';
 });
 
-get('reporting', function () {
-   return 'Reporting feateru';
-});
+Route::resource('reports', ReportsController);
