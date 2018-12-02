@@ -15,7 +15,7 @@ Route::get('/', function () {
    app(); 
 });
 
-Route:: get('abuet', function () {
+Route:: get('about', function () {
    return 'About Page';
 });
 
