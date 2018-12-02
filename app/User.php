@@ -30,7 +30,7 @@ class User extends Authenticatable
 
     public function age()
     {
-    return 34;
+    return 20;
     };
 
     Change
