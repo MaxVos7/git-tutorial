@@ -32,7 +32,4 @@ class User extends Authenticatable
     {
     return 20;
     };
-
-    return 'Hello';
-    
 }
