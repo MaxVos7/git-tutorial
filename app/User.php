@@ -33,7 +33,7 @@ class User extends Authenticatable
     return 37;
     };
 
-    Change
+    return 'Hello';
 
 
 
